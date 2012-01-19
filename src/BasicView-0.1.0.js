@@ -41,8 +41,8 @@ if (!ALUMICAN) ALUMICAN = {};
  * @property {string} rendererType Renderer Type.
  * @property {string} cameraType Camera Type.
  * @property {bool} useAutoScaling Whether content is scaled to fit stage (true) or not.
+ * @property {Stats.js Stats object} Stats Stats.js Stats object.
  *
- * @return void
  */
 ALUMICAN.BasicView = function(rendererType, rendererParams, cameraType, useStats, useAutoScaling, viewportWidth, viewportHeight)
 {
@@ -68,6 +68,8 @@ ALUMICAN.BasicView = function(rendererType, rendererParams, cameraType, useStats
 	this.cameraType;
 	
 	this.useAutoScaling;
+
+	this.stats;
 
 	//----------------------------------------
 	//call construntor
