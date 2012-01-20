@@ -2,7 +2,7 @@
  * @fileOverview
  * @name BasicView.js
  * @author alumican yukiya@alumican.net http://alumican.net/
- * @url
+ * @url https://github.com/alumican/BasicView.js
  * @version 0.1.0
  * @license <a href="http://en.wikipedia.org/wiki/MIT_License">X11/MIT License</a>
  */
@@ -14,7 +14,20 @@ var ALUMICAN;
 if (!ALUMICAN) ALUMICAN = {}; 
 
 /**
- * BasicView class is very simple template for getting started Three.js.
+ * <p>BasicView is very simple template for getting started Three.js.</p>
+ * 
+ * <p>Project Home </p>
+ * <ul>
+ *     <li>GitHub <a href="https://github.com/alumican/BasicView.js">https://github.com/alumican/BasicView.js</a></li>
+ * </ul>
+ * 
+ * <p>Requires</p>
+ * <ul>
+ *     <li>Three.js <a href="https://github.com/mrdoob/three.js/">https://github.com/mrdoob/three.js/</a></li>
+ *     <li>jQuery.js <a href="http://jquery.com/">http://jquery.com/</a></li>
+ *     <li>Stats.js <a href="https://github.com/mrdoob/stats.js">https://github.com/mrdoob/stats.js</a></li>
+ *     <li>Detector.js <a href="http://code.google.com/p/webgl-globe/">http://code.google.com/p/webgl-globe/</a></li>
+ * </ul>
  * @class
  *
  * @param {string} [rendererType="WebGL"] Renderer type ("WebGL" or "Canvas" or "SVG" or "DOM").
