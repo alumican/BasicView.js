@@ -94,7 +94,7 @@ ALUMICAN.BasicView = function(rendererType, rendererParams, cameraType, useStats
  * @static
  * @constant
  */
-ALUMICAN.BasicView.version = "0.1.0";
+ALUMICAN.BasicView.version = "0.1.1";
 
 ALUMICAN.BasicView.prototype =
 {
@@ -295,7 +295,7 @@ ALUMICAN.BasicView.prototype =
 						break;
 
 					default:
-						this.rendererType = "WebGL";
+						self.rendererType = "WebGL";
 						self.renderer = new THREE.WebGLRenderer(rendererParams);
 						break;
 				}
@@ -344,7 +344,7 @@ ALUMICAN.BasicView.prototype =
 		this.update();
 		this.draw();
 
-		this.stats.update();
+		if (this.stats) this.stats.update();
 	},
 
 	_mouseDownHandler : function(e)
