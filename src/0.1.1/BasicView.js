@@ -3,7 +3,7 @@
  * @name BasicView.js
  * @author alumican yukiya@alumican.net http://alumican.net/
  * @url https://github.com/alumican/BasicView.js
- * @version 0.1.0
+ * @version 0.1.1
  * @license <a href="http://en.wikipedia.org/wiki/MIT_License">X11/MIT License</a>
  */
 
